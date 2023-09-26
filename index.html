@@ -1,136 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head> <!--Element #1-->
-    <title>Cookie Recipe!</title>
-  </head>
-  <body style = "background-color: #C4A484; color: #201310; font-family: Georgia;"> <!--Element #3-->
-    <style>
-      h1 {
-        color: #201310;
-        text-align: center;
-        border: 4px double #000;
-        padding: 10px;
-      }
-      h6 {
-        text-align: center;
-      }
-      hr {
-        border-color: black;
-      }
-      table {
-        border-spacing: 10px;
-      }
-      td, th {
-        padding: 10px;
-      }
-    </style>
-    <h1>Recipes for Yummy Chocolate Chip Cookies</h1> <!--Element #2-->
-    <h6>This recipe is based off Bon Appetit's recipe.<br> <!--Element #4-->
-    I made a couple changes to better fit my palette and what I had on hand</h6> <!--Element #5-->
-    <h3> <!--Element #6-->
-      <span title= "Click to see the original recipe by Bon Appetit!"> <!--Element #7-->
-      <a href="https://www.bonappetit.com/recipe/brown-butter-and-toffee-chocolate-chip-cookies" style = "color: #6F4E37;"> <!--Element #8-->
+
+<head>
+  <!--Element #1-->
+  <title>Cookie Recipe!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!--Element #3-->
+  <h1 class="heading">Recipes for Yummy Chocolate Chip Cookies</h1>
+  <!--Element #2-->
+  <h6 class="subheading">
+    <span class="background-sh">
+      This recipe is based off Bon Appetit's recipe.<br>
+      <!--Element #4-->
+      I made a couple changes to better fit my palette and what I had on hand.
+    </span>
+  </h6>
+  <!--Element #5-->
+  <h3>
+    <!--Element #6-->
+    <span title="Click to see the original recipe by Bon Appetit!">
+      <!--Element #7-->
+      <a href="https://www.bonappetit.com/recipe/brown-butter-and-toffee-chocolate-chip-cookies">
+        <!--Element #8-->
         Bon Appetit's Brown Butter Chocolate Chip Cookies With Toffee Recipe
       </a>
-      </span>
-    </h3>
-    <hr> <!--Element #9-->
-    <section> <!--Element #10-->
-      <h4>Ingredients:</h4> <!--Element #11-->
-      <details> <!--Element #12-->
-        <summary>Click to see ingredients!</summary> <!--Element #13-->
-          <ul> <!--Element #14-->
-            <li>3/4 cup of unsalted butter</li> <!--Element #15-->
-            <li>2 cups of all-purpose flour</li>
-            <li>1 tsp of baking soda</li>
-            <li>1/2 tsp of salt</li>
-            <li>1 cup of brown sugar</li>
-            <li>1/3 cup of granulated sugar</li>
-            <li>2 large eggs, room temperature</li>
-            <li>2 tsps of vanilla extract</li>
-            <li>1 1/2 cups of chocolate chips</li>
-          </ul>
+    </span>
+  </h3>
+  <hr>
+
+
+  <!--Element #9-->
+  <section>
+    <!--Element #10-->
+    <h4 class="titles">Ingredients:</h4>
+    <div class="ingredient-section">
+      <!--Element #11-->
+      <details class="ingredients-details">
+        <!--Element #12-->
+        <summary class="background-ingredients">Click to see ingredients!</summary>
+        <!--Element #13-->
+        <ul>
+          <!--Element #14-->
+          <li>3/4 cup of unsalted butter</li>
+          <!--Element #15-->
+          <li>2 cups of all-purpose flour</li>
+          <li>1 tsp of baking soda</li>
+          <li>1/2 tsp of salt</li>
+          <li>1 cup of brown sugar</li>
+          <li>1/3 cup of granulated sugar</li>
+          <li>2 large eggs, room temperature</li>
+          <li>2 tsps of vanilla extract</li>
+          <li>1 1/2 cups of chocolate chips</li>
+        </ul>
       </details>
-      <aside> <!--Element #16-->
-        <img src = "cookie.png" alt = "Cookie Icon" width = "50" height = "50"> <!--Element #17-->
+      <aside class="ingredients-aside">
+        <!--Element #16-->
+        <img class="cookieimg" src="cookie.png" alt="Cookie Icon">
+        <!--Element #17-->
       </aside>
-    </section>
-    <hr>
-    <section>
-      <div style= "width: 75%"> <!--Element #18-->
-        <h4>Directions:</h4>
-        <h5 style= "color: #5C4033">Step 1</h5> <!--Element #19-->
-          <p>Preheat oven to 375 degrees Farenheit. Be sure to have the rack in the middle of the oven to evenly distribute heat to the cookies once inside.</p> <!--Element #20-->
-        <h5 style= "color: #5C4033">Step 2</h5>
-          <p>Cook the 3/4 cup of unsalted butter in a saucepan over medium heat, frequently stir until browning occurs (typically 5-8 minutes). Pour into large bowl and let sit until it's harden.</p>
-        <h5 style= "color: #5C4033">Step 3</h5>
-          <p>Sift 2 cups of all-purpose flour, 1 tsp of baking soda, and 1/2 tsp of salt into a medium bowl and combine with a whisk.</p>
-        <h5 style= "color: #5C4033">Step 4</h5>
-          <p>Add 1 cup of brown sugar and 1/3 granulated sugar to the cooled browned butter. Whisk until combined. Add two large eggs, room temperature, and 2 tsps of vanilla extract. The mixture should start to lighten and thicken.</p>
-        <h5 style= "color: #5C4033">Step 5</h5>
-          <p>Add the dry ingredients and whisk. Once the dry mixture is incorporated with the wet mixture, add your chocolate chip cookies and mix with a spatula.</p>
-        <h5 style= "color: #5C4033">Step 6</h5>
-          <p>Line baking sheet with parchment paper. Recommended to use an icecream scoop to keep a consistent cookie size so that they all cook the same. Sprinkle with salt (optional).</p>
-        <h5 style= "color: #5C4033">Step 7</h5>
-          <p>Bake cookies for 9-11 minutes, until the edges are golden brown. Let cookies cool on the baking sheet for 10 minutes, then transfer to serving plate. Repeat the process with the remaining dough.</p>
-      </div>
-    </section>
-    <hr>
-    <footer> <!--Element #21-->
-      <h2>Reviews + My Input:</h2> <!--Element #22-->
-      <h3>Inputs from Reddit:</h3>
-      <h4>
-        <span title= "Click to see the first Reddit thread!">
-          <a href="https://www.reddit.com/r/Baking/comments/a3xtwc/brown_butter_and_toffee_chocolate_chip_cookies_a/" style = "color: #6F4E37;">
+    </div>
+  </section>
+  <hr>
+
+
+  <section>
+    <div style="width: 75%">
+      <!--Element #18-->
+      <h4 class="titles">Directions:</h4>
+      <h5>Step 1</h5>
+      <!--Element #19-->
+      <p>Preheat oven to 375 degrees Farenheit. Be sure to have the rack in the middle of the oven to evenly distribute
+        heat to the cookies once inside.</p>
+      <!--Element #20-->
+      <h5>Step 2</h5>
+      <p>Cook the 3/4 cup of unsalted butter in a saucepan over medium heat, frequently stir until browning occurs
+        (typically 5-8 minutes). Pour into large bowl and let sit until it's harden.</p>
+      <h5>Step 3</h5>
+      <p>Sift 2 cups of all-purpose flour, 1 tsp of baking soda, and 1/2 tsp of salt into a medium bowl and combine with
+        a whisk.</p>
+      <h5>Step 4</h5>
+      <p>Add 1 cup of brown sugar and 1/3 granulated sugar to the cooled browned butter. Whisk until combined. Add two
+        large eggs, room temperature, and 2 tsps of vanilla extract. The mixture should start to lighten and thicken.
+      </p>
+      <h5>Step 5</h5>
+      <p>Add the dry ingredients and whisk. Once the dry mixture is incorporated with the wet mixture, add your
+        chocolate chip cookies and mix with a spatula.</p>
+      <h5>Step 6</h5>
+      <p>Line baking sheet with parchment paper. Recommended to use an icecream scoop to keep a consistent cookie size
+        so that they all cook the same. Sprinkle with salt (optional).</p>
+      <h5>Step 7</h5>
+      <p>Bake cookies for 9-11 minutes, until the edges are golden brown. Let cookies cool on the baking sheet for 10
+        minutes, then transfer to serving plate. Repeat the process with the remaining dough.</p>
+    </div>
+  </section>
+  <hr>
+
+
+  <footer>
+    <!--Element #21-->
+    <h2 class="titles">Reviews + My Input:</h2>
+    <!--Element #22-->
+    <h3 class="input-sub">Inputs from Reddit:</h3>
+    <h4>
+      <span title="Click to see the first Reddit thread!">
+        <a href="https://www.reddit.com/r/Baking/comments/a3xtwc/brown_butter_and_toffee_chocolate_chip_cookies_a/">
           First Reddit Thread
-          </a>
-        </span>
-      </h4>
-      <figure>
-        <img src = "reddit1cookie.png" width = "150" height = "150">
-        <figcaption>
-          <q>These are my gf favorite cookies! Bomb diggity!</q> <!--Element #29-->
-        </figcaption>
-      </figure>
-      <h4>
-        <span title= "Click to see the second Reddit thread!">
-          <a href="https://www.reddit.com/r/bon_appetit/comments/h7oi3f/i_made_ricks_brown_butter_toffee_chocolate_chip/" style = "color: #6F4E37;">
+        </a>
+      </span>
+    </h4>
+    <figure>
+      <img src="reddit1cookie.png" width="150" height="150">
+      <figcaption>
+        <q>These are my gf favorite cookies! Bomb diggity!</q>
+        <!--Element #29-->
+      </figcaption>
+    </figure>
+    <h4>
+      <span title="Click to see the second Reddit thread!">
+        <a href="https://www.reddit.com/r/bon_appetit/comments/h7oi3f/i_made_ricks_brown_butter_toffee_chocolate_chip/">
           Second Reddit Thread
-          </a>
-        </span>
-      </h4>
-      <figure> <!--Element #27-->
-        <img src = "reddit2cookie.png" width = "150" height = "200">
-        <figcaption>
-          <q>Oh no. I really wish I hadn't seen this. They look so good, I now want to make them too 😩</q>
-        </figcaption> <!--Element #28-->
-      </figure>
-      <h4>My experience and input:</h4>
-      <table> <!--Element #23-->
-        <thead> <!--Element #24-->
-            <tr> <!--Element #25-->
-                <th>Texture</th> <!--Element #26-->
-                <th>Ratio</th>
-                <th>Consistency</th>
-                <th>Taste</th>
-                <th>Looks</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr style= "text-align: center;">
-                <td>9/10</td>
-                <td>10/10</td>
-                <td>6/10</td>
-                <td>8/10</td>
-                <td>10/10</td>
-            </tr>
-        </tbody>
-      </table>
-        <div style= "width: 85%">
-          <p>
-            When I first made these cookies with my brother, they were an instant hit. I was so happy to have finally found a recipe that satisfied my wants in a cookie. However, I recently made the cookies last year, and they were not as enjoyable as I remember, which is why my rating for consistency is so low. When I had made the cookies, it just seemed <em>incredibly buttery</em> and would <em>not</em> harden. Recently, I have made changes to the recipe to cut down on the amount of butter from 1 cup to 3/4 cup. Additionally, for the actual process of making them, I have decided to let my brown butter completely harden in the fridge instead of doing Bon Appetit's suggestion of just leaving them out til cooled. I think this helps with the consistency a lot more. I opted out of the toffee bits because I never had any laying around, plus I saw reviews saying that they were to hard to bite into. Overall, this recipe is still pretty good, just needed some fine-tuning to <em>my</em> taste! <!--Element #30-->
-          </p>
-        </div>
-    </footer>
-  </body>
+        </a>
+      </span>
+    </h4>
+    <figure>
+      <!--Element #27-->
+      <img src="reddit2cookie.png" width="150" height="200">
+      <figcaption>
+        <q>Oh no. I really wish I hadn't seen this. They look so good, I now want to make them too 😩</q>
+      </figcaption>
+      <!--Element #28-->
+    </figure>
+    <h4 class="input-sub">My experience and input:</h4>
+    <table>
+      <!--Element #23-->
+      <thead>
+        <!--Element #24-->
+        <tr>
+          <!--Element #25-->
+          <th>Texture</th>
+          <!--Element #26-->
+          <th>Ratio</th>
+          <th>Consistency</th>
+          <th>Taste</th>
+          <th>Looks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>9/10</td>
+          <td>10/10</td>
+          <td>6/10</td>
+          <td>8/10</td>
+          <td>10/10</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="input-section">
+      <p class="input">
+        When I first made these cookies with my brother, they were an instant hit. I was so happy to have finally found
+        a recipe that satisfied my wants in a cookie. However, I recently made the cookies last year, and they were not
+        as enjoyable as I remember, which is why my rating for consistency is so low. When I had made the cookies, it
+        just seemed <em>incredibly buttery</em> and would <em>not</em> harden. Recently, I have made changes to the
+        recipe to cut down on the amount of butter from 1 cup to 3/4 cup. Additionally, for the actual process of making
+        them, I have decided to let my brown butter completely harden in the fridge instead of doing Bon Appetit's
+        suggestion of just leaving them out til cooled. I think this helps with the consistency a lot more. I opted out
+        of the toffee bits because I never had any laying around, plus I saw reviews saying that they were to hard to
+        bite into. Overall, this recipe is still pretty good, just needed some fine-tuning to <em>my</em> taste!
+        <!--Element #30-->
+      </p>
+      <aside class="input-aside">
+        <img src="singlecookie.png" width="250" height="150">
+      </aside>
+    </div>
+  </footer>
+</body>
+
 </html>

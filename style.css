@@ -1,0 +1,285 @@
+/*Header*/
+.heading {
+    color: transparent;
+    /*Element #1*/
+    font-variant: small-caps;
+    /*Element #2*/
+    font-family: monospace;
+    /*Element #3*/
+    font-stretch: expanded;
+    /*Element #4*/
+    text-align: center;
+    /*Element #5*/
+    background-image: linear-gradient(to right, #F2BED1, #D25380);
+    /*Element #6*/
+    background-clip: text;
+    /*Element #7*/
+    -webkit-background-clip: text;
+  
+    border: 10px double #F2BED1;
+    /*Element #8*/
+    padding: 10px;
+    /*Element #9*/
+  }
+  
+  /*Subheading*/
+  .subheading {
+    color: #000;
+    font-family: monospace;
+    font-size: medium;
+    /*Element #10*/
+    text-align: center;
+  
+  
+    display: flex;
+    /*Element #11*/
+    align-items: center;
+    /*Element #12*/
+    justify-content: center;
+    /*Element #13*/
+    height: 100%;
+    /*Element #14*/
+  }
+  
+  .background-sh {
+    background-color: #F8E8EE;
+    /*Element #15*/
+    padding: 10px;
+    display: inline-block;
+  
+    border: 2px solid transparent;
+    border-image-slice: 30 fill;
+    /*Element #16*/
+    border-radius: 15px;
+    /*Element #17*/
+  }
+  
+  /*Links*/
+  a {
+    color: #D25380;
+    font-size: large;
+    font-family: monospace;
+  }
+  
+  /*Ingredients*/
+  .ingredient-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ingredient-details {
+    flex: 1;
+    /*Element #18*/
+    padding: 20px;
+    order: 1;
+    /*Element #19*/
+  }
+  
+  .ingredient-aside {
+    flex: 1;
+    text-align: center;
+    order: 2;
+  }
+  
+  .background-ingredients {
+    font-family: monospace;
+    color: #000;
+    background-color: #F8E8EE;
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid transparent;
+    border-image-slice: 30 fill;
+    border-radius: 15px;
+    box-shadow: 5px 10px #F9F5F6;
+    /*Element #20*/
+  }
+  
+  /*Element #21*/
+  /*Keyframes for the animation*/
+  @keyframes movingAnimation {
+    from {
+      transform: none;
+    }
+  
+    to {
+      transform: translateX(10%);
+    }
+  }
+  
+  /*Cookie Image*/
+  .cookieimg {
+    width: 200px;
+    /*Element #22*/
+    height: 200px;
+  
+    animation: movingAnimation 3s alternate;
+    /*Element #23*/
+    animation-iteration-count: infinite;
+    /*Element #24*/
+    animation-play-state: running;
+    /*Element #25*/
+  }
+  
+  /*Ingredients and Directions*/
+  .titles {
+    font-size: 20px;
+    color: #618264;
+    font-family: monospace;
+  }
+  
+  /*For smaller text*/
+  body {
+    background-color: #F9F9F9;
+    color: #000;
+    font-family: monospace;
+  
+  }
+  
+  h5 {
+    font-family: monospace;
+    font-size: 15px;
+    color: #79AC78;
+  }
+  
+  hr {
+    border-color: #FDCEDF;
+    /*Element #26*/
+  }
+  
+  /*Inputs*/
+  .input-sub {
+    font-family: monospace;
+    font-size: 15px;
+    color: #79AC78;
+  }
+  
+  
+  
+  
+  /*WWWWIPPPPPPPPP*/
+  .reddit1 {
+    display: flex;
+    align-items: center;
+    width: 85%;
+  }
+  
+  .reddit1-main {
+    background-color: #F8E8EE;
+    max-width: 50%;
+    /*Element #29*/
+    height: 175px;
+    padding: 20px;
+    overflow-y: scroll;
+    /*Element #28*/
+  
+    flex: 1;
+    padding: 20px;
+    order: 1;
+  }
+  
+  .reddit1-img {
+    flex: 1;
+    text-align: center;
+    order: 2;
+  }
+  
+  .reddit2 {
+    display: flex;
+    align-items: center;
+    width: 85%;
+  }
+  
+  .reddit2-main {
+    background-color: #F8E8EE;
+    max-width: 50%;
+    /*Element #29*/
+    height: 175px;
+    padding: 20px;
+    overflow-y: scroll;
+    /*Element #28*/
+  
+    flex: 1;
+    padding: 20px;
+    order: 1;
+  }
+  
+  .reddit2-img {
+    flex: 1;
+    text-align: center;
+    order: 2;
+  }
+  
+  
+  
+  
+  
+  /*My Input*/
+  /*Table*/
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-family: cursive;
+    background-color: #F8E8EE;
+    border: 2px solid #D25380;
+    border-radius: 15px;
+  }
+  
+  thead {
+    background-color: #D25380;
+    color: #fff;
+  }
+  
+  th {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  tbody {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #F9F5F6;
+  }
+  
+  td {
+    padding: 10px;
+    border: 1px solid #D25380;
+  }
+  
+  th,
+  td {
+    text-align: center;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    width: 85%;
+  }
+  
+  .input {
+    background-color: #F8E8EE;
+    max-width: 50%;
+    /*Element #29*/
+    height: 175px;
+    padding: 20px;
+    overflow-y: scroll;
+    /*Element #28*/
+  
+    flex: 1;
+    padding: 20px;
+    order: 1;
+  }
+  
+  .input-aside {
+    flex: 1;
+    text-align: center;
+    order: 2;
+  }
